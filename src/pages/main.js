@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
-
 import { Modal, Alert, View, Text, StyleSheet, FlatList, TouchableOpacity, TextInput, ScrollView } from 'react-native';
-
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import RadioForm from 'react-native-simple-radio-button';
-
 import db from './../config/firebaseConfig';
-
 import styles from './styles';
 
 export default class Main extends Component {
